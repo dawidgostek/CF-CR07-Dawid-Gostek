@@ -1,0 +1,10 @@
+textarea{
+    min-height: 200px;
+}
+button{
+    width: 100px;
+}
+.jumbotron{
+    background-color: rgb(233,236,239,0.8);
+}
+

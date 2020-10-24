@@ -1,0 +1,8 @@
+img{
+    min-width: 255px;
+    max-width: 390px;
+}
+.box{
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 3%;
+}

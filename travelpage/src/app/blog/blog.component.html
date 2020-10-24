@@ -1,0 +1,11 @@
+<div *ngFor="let entry of entrys">
+    <div class="d-md-flex my-4 box rounded">
+        <div class="d-flex justify-content-center align-items-center mr-4">
+            <img src="{{ entry.image }}">
+        </div>
+        <div>
+            <h3>{{ entry.title }}</h3>
+            <p>{{ entry.description }}</p>
+        </div>
+    </div>
+</div>

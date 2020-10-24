@@ -1,0 +1,12 @@
+<div class="row">
+    <div *ngFor="let product of products; index as productId" class="col-lg-4 col-md-6 col-12 mb-5 d-flex justify-content-center">
+        <div class="card h-100 box" style="width: 18rem;">
+            <img src="{{ product.image }}" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">{{ product.title }}</h5>
+            <p class="card-text">For more information click here</p>
+            <a [routerLink]="['/products', productId]" class="btn btn-outline-secondary">more</a>
+            </div>
+        </div>
+    </div>
+</div>

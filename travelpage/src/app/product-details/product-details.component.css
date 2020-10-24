@@ -1,0 +1,9 @@
+img{
+    max-width: 350px;
+}
+p{
+    font-size: 15px;
+}
+.jumbotron{
+    background-color: rgb(255, 255, 255, 0.9);
+}

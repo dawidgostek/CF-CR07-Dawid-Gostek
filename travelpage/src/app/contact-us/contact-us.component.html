@@ -1,0 +1,17 @@
+<div class="jumbotron">
+    <form [formGroup]="sendForm" (ngSubmit)="onSubmit(sendForm.value)">
+        <h1 class="display-4">Contact us</h1>
+        <p class="lead">If you have any questions, please contact our advisors.</p>
+        <hr class="my-4">
+        <textarea class="form-control mb-5" formControlName="text" aria-label="With textarea"></textarea>
+        <div class="input-group mb-5">
+            <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">@</span>
+            </div>
+            <input type="text" class="form-control" formControlName="email" placeholder="Your E-Mail" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="d-flex justify-content-end">
+            <button class="btn btn-outline-secondary" type="submit">Send</button>
+        </div>
+    </form>
+  </div>
